@@ -17,8 +17,6 @@ app.get('/nueva-ruta', (req, res) => {
 
 routerApi(app);
 
-
-
 // app.get('/categories/:categoryId/products/:productsId', (req, res) => {
 //   const { categoryId, productsId } = req.params;
 //   res.json({
@@ -38,7 +36,6 @@ routerApi(app);
 //     res.send('No hay parametros')
 //   }
 // })
-
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
